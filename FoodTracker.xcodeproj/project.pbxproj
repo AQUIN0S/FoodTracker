@@ -7,12 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5AEF101066D979196F67627D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AEF1B12F78FD9E43081F94C /* Info.plist */; };
 		5AEF1058012AE806FCEA561A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF1BECAB86EB1E30749509 /* AppDelegate.swift */; };
 		5AEF15C00EDFEF5356A85F3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF1D07E9F68F6EE6F2F7B3 /* ViewController.swift */; };
 		5AEF166158955FE215831671 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AEF135B81FFCE00B7170130 /* LaunchScreen.storyboard */; };
 		5AEF1A96E82FA2C08C96BF63 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF1FB7347A1495CE305269 /* FoodTrackerTests.swift */; };
-		5AEF1B551C1D52F55144DC71 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AEF1B6ED3A6621B256D138C /* Info.plist */; };
 		5AEF1CF117813772C58D9FD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AEF1B7B193B11A6E87A05B1 /* Main.storyboard */; };
 		5AEF1DD43C89D8C2DBE1FB27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AEF1061A78477424695CBC7 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -142,6 +140,7 @@
 		5AEF17660284B19FF7BB7DB4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Acyonix Limited";
 			};
 			buildConfigurationList = 5AEF1AE19264DC47EEBED95D /* Build configuration list for PBXProject "FoodTracker" */;
@@ -167,7 +166,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AEF101066D979196F67627D /* Info.plist in Resources */,
 				5AEF1DD43C89D8C2DBE1FB27 /* Assets.xcassets in Resources */,
 				5AEF166158955FE215831671 /* LaunchScreen.storyboard in Resources */,
 				5AEF1CF117813772C58D9FD3 /* Main.storyboard in Resources */,
@@ -178,7 +176,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AEF1B551C1D52F55144DC71 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +384,7 @@
 				5AEF1E41BF716D3C71BE9565 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AEF1AE19264DC47EEBED95D /* Build configuration list for PBXProject "FoodTracker" */ = {
 			isa = XCConfigurationList;
@@ -404,6 +402,7 @@
 				5AEF1EE4BE7AE1A2967AA505 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
