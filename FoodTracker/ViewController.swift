@@ -37,6 +37,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
     func textFieldDidEndEditing(_ textField: UITextField) {
         mealNameLabel.text = textField.text
+        textField.text = ""
     }
     
     //MARK: Actions
