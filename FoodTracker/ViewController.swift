@@ -92,5 +92,10 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     @IBAction func setDefaultLabelText(_ sender: UIButton) {
         mealNameLabel.text = "Congratulations - You pressed the button!"
     }
+    
+    func ratingButtonTapped(button: UIButton) {
+        mealNameLabel.text = "Ya tapped the red button!"
+    }
+    
 
 }
